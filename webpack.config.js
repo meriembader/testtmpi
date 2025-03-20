@@ -23,7 +23,7 @@ module.exports = async (env, options) => {
     },
     output: {
       clean: true,
-      path: __dirname + "/dist",
+      path: __dirname + "/public",
       filename: "[name].bundle.js",
     },
     resolve: {
